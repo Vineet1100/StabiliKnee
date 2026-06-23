@@ -7,7 +7,7 @@ A common issue that our teammate faced was easily dislocating the knee and typic
 - Detects dangerous knee rotation using ITG-3200 gyroscope
 - Monitors knee flexion via flex sensor  
 - Triggers servo-actuated brace tightening when risk threshold exceeded
-- Provides ~300ms predictive response window
+- Provides ~30ms predictive response window
   
 ## How we built it:
 We used an arduino Uno R3, a breadboard, IMU, and a flex bend sensor to detect abnormalites in an individuals knee movements. The IMU uses the 3-axis gyroscope to detect rotations and if a rotation that would cause a dislocation was to take place then we would increase the risk factor. The other end of the risk factor comes from the flex bend sensor and when that bends to a certain range then the risk factor would increase again. We are looking for a risk threshold and when this is achieved the servo motor turns on to create a tension to immobilize the joint of the dislocation and support the knee. We coded it using the arduino IDE and arduino C++.
