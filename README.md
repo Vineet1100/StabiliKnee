@@ -1,5 +1,5 @@
 # StabiliKnee
-AI-powered knee brace that detects dangerous motion 300ms before dislocation and automatically tightens to prevent injury.
+AI-powered knee brace that detects dangerous motion 30ms before dislocation and automatically tightens to prevent injury.
 
 ## Inspiration:
 A common issue that our teammate faced was easily dislocating the knee and typical knee braces only provide passive support which is not stable enough to prevent dislocations. So we decided to take matters into our own hands and create this system that can provide active tension to the knee in order to prevent these dislocations. 
