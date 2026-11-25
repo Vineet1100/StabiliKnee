@@ -1,0 +1,3 @@
+pyserial
+google-genai
+scikit-learn
